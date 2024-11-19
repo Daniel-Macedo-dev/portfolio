@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <a href="/portfolio.html" class="botao-voltar">← Voltar</a>
+        <h1>Contato</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Contato</h2>
+
+            <form action="#" onsubmit="return validarFormulario()">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+<footer>
+    <div class="footer-conteudo">
+        <p>&copy; 2024 Daniel Macedo Silva. Todos os direitos reservados</p>
+    </div>
+    <div class="footer-links">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+</footer>
+</html>
